@@ -1,184 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <title>Membership</title>
-  </head>
-  <body>
-        <div class="banner">
-          <img src="banner.jpg" alt="banner">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="desktop-only">
+  <div class="banner">
+      <img src="images/banner.jpg" alt="banner">
+  </div>
+</div>
+
+<div class="desktop-only">
+  <div class="container">
+      <div class="logo-img">
+        <a href="index.html">
+        <img src="images/logo.png" alt="Logo">
+        </a>
       </div>
-      
-      <div class="container">
-          
-          <div class="logo-img">
-              <a href="index.html">
-              <img src="logo.jpeg" alt="Logo">
-              </a>
+      <div>
+        <h2 class="title"> Figure Skating Association Northern Territory</h2>  
+      </div>
+  </div>
+</div>
+
+<div class="mobile-only">
+  <div class="mobile-logo-img" >
+    <a href="index.html">
+    <img src="images/logo.png" alt="Logo" width="350">
+    </a>
+</div>
+</div>
+
+<div class="mobile-only">
+  <div class="topnav">
+    <header>
+      <div id="myLinks">
+        <a href="#AboutUS">About Us</a>
+        <a href="#Governance">Governance</a>
+        <a href="MobliePoliciesProcedures.html">Policies and Procedures</a>
+        <a href="#Membership">Membership</a>
+        <a href="#Testing">Testing</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunctionMenu()">
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </a>
+    </header>
+  </div>
+</div>
+
+
+<!-- <div class="mobile-only">
+  <header>
+    <nav>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+      </div>
+    </nav>
+  </header>
+</div> -->
+
+<div class="desktop-only">
+  <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+          <button class="dropbtn"> About Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">What is FSANT?</a>
+            <a href="#">FSANT Member</a>
+            <a href="#">Contact us</a>
+            <a href="#">Become a Member</a>
+            
           </div>
       </div>
-      <div class="navbar">
-        <a href="#">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn"> About Us
+      <a href="#">Governance</a>
+      <div class="dropdown">
+          <button class="dropbtn"> Policies and Procedures
               <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">What is FSANT?</a>
-              <a href="#">FSANT Member</a>
-              <a href="#">Contact us</a>
-              <a href="#">Become a Member</a>
-              
-            </div>
-        </div>
-        <a href="#">Governance</a>
-        <div class="dropdown">
-            <button class="dropbtn"> Policies and Procedures
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="I#">FSANT Constitution</a>
-                <a href="#">Coach Code of Conduct</a>
-            </div>
-        </div>
-        <a href="#">Membership</a>
-        <div class="dropdown">
-            <button class="dropbtn"> Testing
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Apply for Testing</a>
-                <a href="#">Upcoming Tests</a>
-            </div>
-      </div> 
-    </div>
-    
-        <div class="para">
-          <h2 style="font-family: 'Times New Roman', Times, serif;  color: #cc7722;">Memberships 2023</h2>
-            <p1>The membership for year 2023 is available on the webpage.  
-              To participate in member and enter events, membership is important 
-              for all skaters and atheletes.In the event that an application is declined, any payment made as 
-              an FSANT membership fee will be promptly refunded. The membership list is updated
-              regularly on this website.Before purchasing your membership, please familiarise 
-              yourself with the available options.</p1>
-        </div>
-  
-    <div class="location">
-      <div class="cards">
-        <div class="image">
-          <img src="skating.jpeg" />
-        </div>
-        <div class="des">
-          <p style="color: black ; text-align: none;"><b>Athletes competitions, training and tests.</b></p>
-           <p style="color: #cc7722;">Membership inclusions: </p> 
-           <p class="text"> 
-          <p >- FSANT Membership</p>
-          <p >- Personal Accident Insurance</p>
-          <p >- Competitions - Authorisation to enter any sanctioned figure skating event</p>
-          <p >- Test Sessions skating</p>
-          </p>
-        </div>
-        <div class="btn">
-          <button id="Purchase"> Purchase </button>
-        </div>
+          </button>
+          <div class="dropdown-content">
+              <a href="FSANTConstitution.html">FSANT Constitution</a>
+              <a href="CodeofConduct.html">Coach Code of Conduct</a>
+          </div>
       </div>
-      <div class="cards">
-        <div class="image">
-          <img src="Beginner.jpeg" />
-        </div>
-        <div class="des">
-          <p style="color: black ; text-align: none;"><b>Skaters participating in the Skate program including lessons and competitions.</b></p>
-          <p style="color: #cc7722;">Membership inclusions: </p> 
-          <p class="text"> 
-         <p >- FSANT Membership</p>
-         <p >- FSANT competitions</p>
-         <p >- FSANT tests</p>
-         <p >- Access to FSANT member only events</p>
-         
-         </p>
-        </div>
-        <div class="btn">
-          <button id="Purchase"> Purchase </button>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="image">
-          <img src="Coach.jpeg">
-        </div>
-        <div class="des">
-          <p style="color: black ; text-align: none;"><b>Members who no longer competes or undertake tests.They can behave as driving force behind any success.</b></p>
-          <p style="color: #cc7722;">Membership inclusions: </p> 
-          <p class="text"> 
-         <p >- FSANT voting rights</p>
-         <p >- FSANT Membership</p>
-         <p >- Personal Accident Insurance</p>
-         <p >- Access to FSANT member only events</p>
-         </p>
-        </div>
-        <div class="btn">
-          <button id="Purchase"> Purchase </button>
-        </div> 
-      </div>
-     
-      <div class="cards">
-        <div class="image">
-          <img src="Supporter.jpeg">
-        </div>
-        <div class="des">
-          <p style="color: black ; text-align: none;"><b>Figure skating supporters who want to support FSANT but do not actively ice skate.</b></p>
-        <p style="color: #cc7722;">Membership inclusions: </p> 
-        <p class="text"> 
-          <p >- FSANT voting rights</p>
-         <p >- FSANT Membership</p>
-         <p >- Personal Accident Insurance</p>
-         <p >- Access to FSANT member only events</p>
-       </p>
-        </div>
-        <div class="btn">
-          <button id="Purchase"> Purchase </button>
-        </div> 
-      </div>
+      <a href="#">Membership</a>
+      <div class="dropdown">
+          <button class="dropbtn"> Testing
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Apply for Testing</a>
+              <a href="#">Upcoming Tests</a>
+          </div>
+    </div> 
+  </div>
+</div>
 
-      <div class="cards">
-        <div class="image">
-          <img src="Administration.jpeg">
-        </div>
-        <div class="des">
-        <p style="color: black ; text-align: none;"><b>People that are indirectly involved with figure skating can be Organizers, Judges, Directors.</b></p>
-        <p style="color: #cc7722;">Membership inclusions: </p> 
-           <p class="text"> 
-            <p >- FSANT voting rights</p>
-            <p >- FSANT Membership</p>
-            <p >- Personal Accident Insurance</p>
-            <p >- Access to FSANT member only events</p>
-          </p>
-        <div class="btn">
-          <button id="Purchase"> Purchase </button>
-        </div> 
-      </div>
+<div class="card-pos">
+  <div class="card" >
+    <h1>About Us</h1>
+    <img src="images/logo.png" alt="Card Image">
+    <div class="card-info">
+      <h2>About FSANT</h2>
+      <p>For active skaters looking to become registered competitors.<br>Click for more information.</p>
+      <button onclick="myFunction()"><p2>More information</p2></button>
     </div>
+  </div>
+
+  <div class="card" >
+    <h1>Governance</h1>
+    <img src="images/books.jpg" alt="Card Image">
+    <div class="card-info">
+      <h2>TBD</h2>
+      <p>TBD<br>Click for more information.</p>
+      <button onclick="myFunction()"><p2>More information</p2></button>
     </div>
-    <div class="footer">
-      <div class="contact">
-        <h3>Contact us</h3>
-        <p>fsant@gmail.com</p>
-      </div>
-      <div class="social">
-        <div>
-          <h3>Social</h3>
-        </div>
-        <div>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-        </div>
-      </div>
+  </div>
+
+  <div class="card" >
+    <h1>Procedures and Policies</h1>
+    <img src="images/Skater02.jpg" width="400" height="400" alt="Card Image">
+    <div class="card-info">
+      <h2>Procedures and Policies</h2>
+      <p3>Read about the FSANT polices and procedures.<br>Click for more information.</p3>
+      <button onclick="myFunction()"><p2>More information</p2></button>
     </div>
-    <script src="index.js"></script>
-  </body>
-</html>
+  </div>
+
+
+  <div class="card" >
+    <h1>How to Join</h1>
+    <img src="images/Skater01.jpg" alt="Card Image">
+    <div class="card-info">
+      <h2>Membership Options</h2>
+      <p>Become a member of FSANT.<br>Click for more information.</p>
+      <button onclick="myFunction()"><p2>More information</p2></button>
+    </div>
+  </div>
+
+  <div class="card" >
+    <h1>Testing</h1>
+    <img src="images/Skater03.jpg" alt="Card Image">
+    <div class="card-info">
+      <h2>Testing</h2>
+      <p3>For active skaters looking to become registered competitors through testing.<br>Click for more information.</p3>
+      <button onclick="myFunction()"><p2>More information</p2></button>
+    </div>
+  </div>
+</div>
+
+</body>
