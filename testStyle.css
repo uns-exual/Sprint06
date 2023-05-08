@@ -1,0 +1,39 @@
+.containerT {
+    display: grid;
+    flex-wrap: wrap;
+    margin: 10px;
+    position:absolute; 
+    align-items: center;
+    grid-template-columns: 10fr 2fr 2fr;
+    column-gap: 30px;
+    
+}
+
+      
+      #calendar {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      #calendar th,
+      #calendar td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      #calendar th {
+        background-color: lightgray;
+      }
+      #calendar td.today {
+        background-color: lightblue;
+      }
+      #calendar caption {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px;
+      }
+      #titleTest{
+        font-family: 'Trebuchet MS', sans-serif;
+        text-align: center;
+       
+      }
