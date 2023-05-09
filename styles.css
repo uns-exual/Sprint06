@@ -123,24 +123,6 @@ body {
   line-height: 1.5;
 }
 
-.cards .btn button {
-  padding: 10px 20px;
-  background-color: #cc7722;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  
-}
-
-.cards .btn button:hover {
-  background-color: #555;
-}
-
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .cards {
@@ -261,3 +243,4 @@ body {
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
+
