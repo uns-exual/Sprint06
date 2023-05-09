@@ -10,3 +10,5 @@ document.querySelectorAll(".nav-link").forEach(n => n.
     addEventListener("click", () => {
         hamburger.classList.remove("active");
     }))
+function testSite() {
+    location.href = 'testing.html'
