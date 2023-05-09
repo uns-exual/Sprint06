@@ -25,11 +25,13 @@ header.a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    z-index: 998;
 }
 
 .hamburger {
     display: none;
     cursor: pointer;
+    z-index: 999;
 }
 
 .bar {
